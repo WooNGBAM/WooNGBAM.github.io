@@ -1,0 +1,38 @@
+#main_header{
+    background-color: cadetblue;
+    height: 100px;
+    margin-bottom: 3px;
+}
+
+.main_body {
+
+}
+
+.button_header {
+    border-radius: 25px;
+    border: black 2px solid;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.button_header:hover {
+    border: red 3px solid;
+    animation-name: twinkle;
+    animation-duration: 750ms;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes twinkle {
+    from {
+        opacity: 100%;
+    }
+
+    to {
+        opacity: 45%;
+    }
+}

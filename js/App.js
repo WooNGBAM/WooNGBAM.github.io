@@ -1,2 +1,4 @@
-
-    console.log("ddd")
+console.log("ddd")
+const test = function () {
+    alert("ALERT!!");
+}
