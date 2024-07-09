@@ -1,7 +1,4 @@
-console.log("ddd")
-const test = function () {
-    alert("ALERT!!");
-}
+
 
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = { 
