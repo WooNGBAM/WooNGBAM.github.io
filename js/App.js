@@ -62,4 +62,6 @@ function displayMarker(locPosition, message) {
     map.setCenter(locPosition);      
 }  
 }
+$(function(){
     kakaoMap();
+}
